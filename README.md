@@ -1,15 +1,8 @@
-# Basic Sample Hardhat Project
+# Metaverse Exchange
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Non practical concept for a metaverse marketplace and exchange. The contract includes:
+- ERC 1155 minting
+- Token offering
+- Exchage Orderbook (used linkedlist approach for understanding purposes)
+- ERC 1155 buyout - allows all holders to be bought out (functionality needs to be added to finalise)
+- Rental agreement - list property and rent (functionality needs to be added to finalise)
